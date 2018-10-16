@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bql" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp_daa" width="260" height="455" x="52" y="470">
+		<e:Image source="iceBottom_png" y="329" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image y="252.5" scaleX="1" scaleY="1" horizontalCenter="0" source="" width="126" height="114"/>
+		<e:Image scaleX="1" scaleY="1" bottom="121" horizontalCenter="0" source="" width="126" height="114"/>
+		<e:Image scaleX="1" scaleY="1" bottom="163" horizontalCenter="0" source="" width="126" height="114"/>
+		<e:Image scaleX="1" scaleY="1" bottom="200" horizontalCenter="0" source="" width="126" height="114"/>
+	</e:Group>
+	<e:Group id="gp_xs" width="260" height="455" x="330" y="470">
+		<e:Image source="iceBottom_png" y="329" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image source="" y="255" scaleX="1" scaleY="1" horizontalCenter="0" width="126" height="114" x="-73"/>
+		<e:Image source="" scaleX="1" scaleY="1" horizontalCenter="0" width="126" height="114" x="-73" y="220"/>
+		<e:Image source="" scaleX="1" scaleY="1" horizontalCenter="0" width="126" height="114" x="-73" y="178"/>
+		<e:Image source="" scaleX="1" scaleY="1" horizontalCenter="0" width="126" height="114" x="-73" y="141"/>
+		<e:Image id="img_cw" source="wrongMark_png" x="67" y="292" visible="false"/>
+	</e:Group>
+	<e:Group id="gp_xx" width="636" height="158" y="976" horizontalCenter="0">
+		<e:Image source="iceBule_png" x="35" y="32"/>
+		<e:Image source="iceGreen_png" x="217" y="31"/>
+		<e:Image source="iceRed_png" x="436" y="33"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="81" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

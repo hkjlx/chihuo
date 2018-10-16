@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="settingScene" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image width="435" height="336" verticalCenter="16" anchorOffsetX="0" source="wordBg_png" scale9Grid="19,15,79,81" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:Label text="设置" y="467" fontFamily="Microsoft YaHei" left="0" right="0" textAlign="center" size="40"/>
+	<e:Button id="btn_bgmusic" label="" verticalCenter="0" left="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,noPlay">
+			<e:Image width="100%" height="100%" source="btn_music_png" source.down="btn_music_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image width="100%" height="100%" source="btn_disable_png" visible="false" visible.noPlay="true"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_effect" label="" verticalCenter="0" right="150">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,noPlay">
+			<e:Image width="100%" height="100%" source="btn_sound_png" source.down="btn_sound_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			 <e:Image width="100%" height="100%" source="btn_disable_png" visible="false" visible.noPlay="true"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_ok" label="" y="648" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="YesBtn_jpg" source.down="YesBtn1_jpg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

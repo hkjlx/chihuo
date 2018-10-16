@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="hanbao" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gp_daa" width="260" height="455" x="52" y="470">
+		<e:Image source="macaronsButtom_png" bottom="0" horizontalCenter="0"/>
+		<e:Image source="macaronsMiddle_png" y="253.5" height="151" horizontalCenter="0.5" anchorOffsetY="0"/>
+		<e:Image source="macaronsTop_png" y="202" horizontalCenter="0"/>
+		<e:Image y="339" horizontalCenter="0" width="142" height="100" source=""/>
+		<e:Image y="276" horizontalCenter="0" source="" width="142" height="100"/>
+		<e:Image y="216" horizontalCenter="0" source="" width="142" height="100"/>
+	</e:Group>
+	<e:Group id="gp_xs" width="260" height="455" x="330" y="470">
+		<e:Image scaleX="1" scaleY="1" source="macaronsButtom_png" bottom="0" horizontalCenter="0"/>
+		<e:Image source="macaronsMiddle_png" y="253" horizontalCenter="0.5" anchorOffsetY="0" height="149"/>
+		<e:Image source="macaronsTop_png" y="202" horizontalCenter="0"/>
+		<e:Image source="" y="339" horizontalCenter="2" width="142" height="100" x="-81" scaleX="1" scaleY="1"/>
+		<e:Image source="" y="276" horizontalCenter="2" width="142" height="100" x="-81" scaleX="1" scaleY="1"/>
+		<e:Image source="" y="216" horizontalCenter="2" width="142" height="100" x="-81" scaleX="1" scaleY="1"/>
+		<e:Image id="img_cw" source="wrongMark_png" x="70" y="282" visible="false"/>
+	</e:Group>
+	<e:Group id="gp_xx" width="636" height="158" y="976" horizontalCenter="0">
+		<e:Image x="35" y="32" source="macaronsBule_png"/>
+		<e:Image x="217" y="31" source="macaronsGreen_png"/>
+		<e:Image x="436" y="33" source="macaronsRed_png"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="81" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

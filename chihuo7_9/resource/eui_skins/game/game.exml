@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="game" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="background_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="toumingdi_png" y="261" anchorOffsetX="0" width="578.24" anchorOffsetY="0" height="699" scale9Grid="10,71,26,123" horizontalCenter="0"/>
+	<e:Image source="buttomBg_png" x="-1" bottom="0"/>
+	<e:Image source="banzi_png" y="328" anchorOffsetX="0" scale9Grid="31,1,106,79" left="0" right="0"/>
+	<e:Image id="img_pz" source="role1_png" x="52" bottom="796"/>
+	<e:Image source="xinxi_png" x="286" y="179"/>
+	<e:Image source="time_png" x="83.5" y="383.5"/>
+	<e:Image source="progressBarBg_png" x="142" y="404"/>
+	<e:Image id="djs" source="progressBar_png" x="144" y="406" width="443"/>
+	<e:Image source="wordBg_png" x="330" y="470" scale9Grid="14,14,84,84" anchorOffsetY="0" height="455" anchorOffsetX="0" width="260"/>
+	<e:Image source="diban_png" x="334.96" y="907"/>
+	<e:Image source="wordBg_png" x="52" y="470" scale9Grid="14,14,84,84" anchorOffsetY="0" height="455" anchorOffsetX="0" width="260"/>
+	<e:Image source="diban_png" x="57.41" y="907"/>
+	<e:Image id="ready" source="ready_png" y="353" horizontalCenter="0" visible="false"/>
+	<e:Image id="go" source="go_png" y="455.5" horizontalCenter="0" visible="false"/>
+	<e:Image source="01_png" x="422" y="227.5"/>
+</e:Skin>
